@@ -1,0 +1,8 @@
+The quick brown fox jumps over the lazy dog.
+This is a sample text file used for testing purposes.
+The brave cookie started the quest.
+Cookies are delicious, especially when they are freshly baked.
+Here is a sentence without the keyword.
+This document is just a simple text example.
+This cookie is known for its courage.
+We love to bake cookies every weekend.
