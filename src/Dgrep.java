@@ -57,12 +57,16 @@ public class Dgrep {
 
             lines.forEach(line -> {
                 if (line.contains(keyword)) {
-                    System.out.println(file + ": line " + lineNumber[0] + " -> " + line);
+                    synchronizedPrint(file + ": line " + lineNumber[0] + " -> " + line);
                 }
                 lineNumber[0]++;
             });
         } catch (IOException e) {
             System.err.println("Error reading file: " + file);
         }
+    }
+
+    public static synchronized void synchronizedPrint(String message) {
+        System.out.println(message);
     }
 }
